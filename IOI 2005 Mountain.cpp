@@ -39,7 +39,6 @@ inline void upd(pnode t) {
 	if (t->rig) {
         t->mx = max(t->mx, t->sum + t->rig->mx);
         t->sum += t->rig->sum;
-        //t->mx = max(t->mx, t->sum);
 	}
 }
 
